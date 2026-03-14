@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Code Share App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="box">
+    <h2>QR Code Generator</h2>
+
+    <input type="text" id="qrText" placeholder="Enter website or text" />
+    <br>
+
+    <button onclick="generateQR()">Generate QR</button>
+    <button onclick="downloadQR()">Download QR</button>
+    <button onclick="shareQR()">Share QR</button>
+
+    <div id="qrcode"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

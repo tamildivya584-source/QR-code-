@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #6404e2;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.box {
+  width: 360px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgb(238, 36, 36);
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin: 6px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: green;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#qrcode {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#qrcode img,
+#qrcode canvas {
+  padding: 10px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
